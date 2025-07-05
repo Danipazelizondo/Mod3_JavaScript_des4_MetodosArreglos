@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List_DE</title>
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+<body>
+    <h1>To Do List</h1>
+    <hr />
+    <div class="ToDo-container">
+        <label for="nuevaTarea">Nueva Tarea</label>
+        <input type="text" id="nuevaTarea" placeholder="Escribe tu tarea aquí..." />
+        <button>Agregar</button>
+    </div>
+    <div class="contador-tareas">
+        <p>Total: <strong id="total">0</strong></p>
+        <p>Realizadas: <strong id="realizadas">0</strong></p>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tarea</th>
+                <th>✔</th>
+                <th>✖</th>
+            </tr>
+        </thead>
+        <tbody id="listaTareas"></tbody>
+    </table>
+    </div>
+    <script src="./assets/js/arreglos.js"></script>
+</body>
+</html>
