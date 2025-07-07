@@ -28,17 +28,49 @@ input[type="text"] {
     border: 1px solid #aaa;
 }
 
-button {
+.boton-agregar {
     background-color: #2e8b57;
     color: white;
     border: none;
     padding: 12px 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
+}
+
+.boton-agregar:hover {
+    background-color: #136335;
+}
+
+.boton-eliminar {
+    background-color: #a30505;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-eliminar:hover {
+    background-color: #640404;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    background-color: #f1f0f0;
+}
+
+th, td {
+    padding: 8px 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
 }

@@ -34,7 +34,7 @@ function renderTareas() {
                 </td>
                 <td>${tarea.realizada ? "realizado" : ""}</td>
                 <td>
-                    <button onclick="eliminarTarea(${tarea.id})">Eliminar</button>
+                    <button class="boton-eliminar" onclick="eliminarTarea(${tarea.id})">Eliminar</button>
                 </td>
             </tr>
         `;
